@@ -13,5 +13,6 @@ export default function Home() {
       </label>
       <button type="submit">Send</button>
     </form>
+
   );
 }
