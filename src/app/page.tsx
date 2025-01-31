@@ -1,8 +1,9 @@
-import Contact from "@/pages/contact";
+import ContactForm from "@/pages/contact";
+
 export default function Home() {
   return (
     <>
-    <Contact />
+    <ContactForm />
     </>
   );
 }
