@@ -1,6 +1,9 @@
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-
 [build]
   command = "npm run build"
+  functions = "netlify/functions"
   publish = ".next"
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you"
+  status = 200
