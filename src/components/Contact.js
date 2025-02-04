@@ -33,6 +33,11 @@ export default function Contact() {
             </label>
           </div>
           <div style={style.marginTop}>
+            <label>
+            Chat: <textarea name="chat" style={style.textBlack}></textarea>
+            </label>
+          </div>
+          <div style={style.marginTop}>
             <button type="submit">Send</button>
           </div>
         </form>
