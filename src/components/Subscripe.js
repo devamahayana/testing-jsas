@@ -11,13 +11,13 @@ export default function Subscripe() {
               
             <input type="hidden" name="form-name" value="subscripe" />
         
-            <div style={style.marginTop}>
+            <div>
               <label>
-                Email: <input type="email" name="email" style={style.textBlack}/>
+                Email: <input type="email" name="email"/>
               </label>
             </div>
            
-            <div style={style.marginTop}>
+            <div>
               <button type="submit">Send</button>
             </div>
           </form>
