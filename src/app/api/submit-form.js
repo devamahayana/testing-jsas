@@ -2,10 +2,10 @@
 export default async function handler(req, res) {
     if (req.method === 'POST') {
       // Ambil data dari body request
-      const { name, email, message } = req.body;
+      const { email} = req.body;
   
       // Simpan data ke database atau lakukan sesuatu dengan data tersebut
-      console.log('Received form data:', { name, email, message });
+      console.log('Received form data:', { email});
   
       // Kirim respons sukses
       res.status(200).json({ message: 'Form submitted successfully' });
