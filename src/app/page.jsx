@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to My Form Next JS</h1>
-      {/* <Contact /> */}
-      <Subscripe />
+      <Contact />
+      {/* <Subscripe /> */}
     </div>
   );
 }
